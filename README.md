@@ -1,3 +1,14 @@
+[Open Software Caralog](https://github.com/aeonSolutions/aeonlabs-open-software-catalogue)  >>  Dataverse API C library
+
+[![Telegram](https://img.shields.io/badge/join-telegram-blue.svg?style=for-the-badge)](https://t.me/+W4rVVa0_VLEzYmI0)
+ [![WhatsApp](https://img.shields.io/badge/join-whatsapp-green.svg?style=for-the-badge)](https://chat.whatsapp.com/FkNC7u83kuy2QRA5sqjBVg) 
+ [![Donate](https://img.shields.io/badge/donate-$-brown.svg?style=for-the-badge)](http://paypal.me/mtpsilva)
+ [![Say Thanks](https://img.shields.io/badge/Say%20Thanks-!-yellow.svg?style=for-the-badge)](https://saythanks.io/to/mtpsilva)
+![](https://img.shields.io/github/last-commit/aeonSolutions/openScienceResearch-Smart-DAQ-Device-able-to-Upload-Live-Experimental-Sensor-Data-to-a-Data-Repo?style=for-the-badge) <a href="https://trackgit.com">
+<img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/l98tfr0vje3q971a0cbl" alt="trackgit-views" />
+</a>
+![](https://views.whatilearened.today/views/github/aeonSolutions/AeonLabs-Serenity-Android-App.svg)
+
 # [![CodeFactor](https://www.codefactor.io/repository/github/aeonsolutions/aeonlabs-serenity-android-app/badge)](https://www.codefactor.io/repository/github/aeonsolutions/aeonlabs-serenity-android-app) Prototype Serenity Mobile App
 
 is an Android app in the category of 'health and well-being'. It’s a simple app for tracking time without the need to have to think about it constantly. The user can define a time duration, and, in the end, the app plays a bell-like sound to raise awareness of the user.
