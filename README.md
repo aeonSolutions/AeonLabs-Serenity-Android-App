@@ -5,3 +5,6 @@ is an Android app in the category of 'health and well-being'. It’s a simple ap
 Available on the Play Store here:
 https://play.google.com/store/apps/details?id=aeonlabs.serenity
 
+<p align="center">
+   <img src="https://github.com/aeonSolutions/AeonLabs-Serenity-Android-App/blob/main/serenity.jpg">
+</p>
