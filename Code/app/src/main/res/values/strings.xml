@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Serenity</string>
+    <string name="meditation_name_placeholder">Meditation Name</string>
+    <string name="url">http://www.aeonlabs.solutions</string>
+    <string name="totalTimePlaceholder">Total time spent in meditation</string>
+    <string name="pickASession">Start a session</string>
+    <string name="background_image">background image</string>
+    <string name="timer_button_description">silent timer button</string>
+    <string name="back">Back</string>
+    <string name="app_info_link">app info link</string>
+</resources>

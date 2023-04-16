@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:background="@drawable/rounded_dialog_box"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:id="@+id/promptMessage"
+    >
+
+    <aeonlabs.serenity.Helper.ButtonCoffeeService
+        android:id="@+id/btnMinimum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2 minutes"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/colorTitle"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+
+        />
+
+    <aeonlabs.serenity.Helper.ButtonCoffeeService
+        android:id="@+id/btnFortyFive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="45 Minutes"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/colorTitle"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        fontPath="fonts/font-diner-coffee-service.otf"
+
+        />
+
+    <aeonlabs.serenity.Helper.ButtonCoffeeService
+        android:id="@+id/btnHour"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="60 Minutes ( recommended )"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/colorTitle"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        fontPath="fonts/font-diner-coffee-service.otf"
+
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button"
+        >
+
+        <aeonlabs.serenity.Helper.TextViewCoffeeService
+            android:id="@+id/txtCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Custom Time"
+            android:background="@color/colorButton"
+            android:textColor="@color/colorTitle"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="20dp"
+            fontPath="fonts/font-diner-coffee-service.otf"
+
+            />
+
+        <EditText
+            android:id="@+id/userInput"
+            android:layout_width="130px"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:selectAllOnFocus="true"
+            android:imeOptions="actionDone"
+            android:background="@color/colorButton"
+            android:textColor="@color/colorTitle"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+
+            >
+        </EditText>
+
+        <aeonlabs.serenity.Helper.TextViewCoffeeService
+            android:id="@+id/customLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="min"
+            android:gravity="center"
+            fontPath="fonts/font-diner-coffee-service.otf"
+
+            android:textColor="@color/colorTitle"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+        <aeonlabs.serenity.Helper.ButtonCoffeeService
+            android:id="@+id/btnCustom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select"
+            android:background="@color/colorButton"
+            android:textColor="@color/colorTitle"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            fontPath="fonts/font-diner-coffee-service.otf"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
